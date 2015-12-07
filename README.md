@@ -148,10 +148,6 @@ like this ..
 <% @posts.each do |article| %>
   <h3><%= post.title.html_safe %></h3>
   <p><%= post.body.html_safe %></p>
-  <%= link_to "Edit Article", edit_article_path(article) %>
-  <% if article != @articles.last %>
-  <hr />
-  <% end %>
 <% end %>
 
 ### Customize ckeditor
