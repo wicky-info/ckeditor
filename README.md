@@ -138,7 +138,8 @@ Form helpers:
 <% end -%>
 ```
 ### For Show page or Index Page 
-Example Post 
+# Example Post 
+``` 
 if without Ckeditor only 
 <%= post.title %> 
 but if using Ckeditor 
@@ -149,7 +150,7 @@ like this ..
   <h3><%= post.title.html_safe %></h3>
   <p><%= post.body.html_safe %></p>
 <% end %>
-
+````
 ### Customize ckeditor
 
 All ckeditor options can be found [here](http://docs.ckeditor.com/#!/api/CKEDITOR.config)
