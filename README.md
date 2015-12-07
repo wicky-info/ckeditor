@@ -140,6 +140,7 @@ Form helpers:
 ### For Show page or Index Page 
 ```
 Example Post 
+```
 ``` 
 if without Ckeditor only 
 <%= post.title %> 
